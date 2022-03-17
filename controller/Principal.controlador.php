@@ -5,7 +5,11 @@ class PrincipalControlador extends Controlador{
     public function __construct()
     {
        parent::__construct();
-       echo"controlador principal funcionando";
-       $this->vista->mostrar("principal/lista.php");
+     
+    }
+
+    public function inicio(){
+        $this->vista->mostrar("principal/index");
+        
     }
 }
