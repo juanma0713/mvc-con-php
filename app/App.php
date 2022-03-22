@@ -16,6 +16,7 @@ Class App{
             $second = new SecondControlador();
             $second->inicio();
             return;
+            
         }
 
         $rutaArchivoControlador = "controller/" . ucfirst($url[0]) . ".controlador.php"; 
