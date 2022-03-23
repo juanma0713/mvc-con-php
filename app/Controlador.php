@@ -10,4 +10,10 @@ class Controlador{
     {
        $this->vista= new vista(); 
     }
+
+    public function cargarModelo($nombre)
+    {
+       require_once 'model/' . $nombre. ".php";
+       
+    }
 }

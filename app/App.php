@@ -12,9 +12,6 @@ Class App{
             require_once 'controller/Principal.controlador.php';
             $principal = new PrincipalControlador();
             $principal -> inicio();
-            require_once 'controller/Second.controlador.php';
-            $second = new SecondControlador();
-            $second->inicio();
             return;
             
         }
